@@ -1,0 +1,56 @@
+header{
+    min-width: 100%;
+    background-color: #3BB2E2;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    padding-top: 10px;
+    height: 6em;
+    line-height: 3em;
+    display: flex;
+}
+.linky{
+    width: 50%;
+    margin-left: auto;
+}
+.linky ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav h1{
+    color: white;
+    margin-left: 1rem;
+    display: inline;
+}
+section{
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: lightgoldenrodyellow;
+}
+.vsetko{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+.obsah{
+    text-align: center;
+    background-color: white;
+    max-width: 75%;
+    padding: 10px;
+}
+.obsah img{
+    width: 90%;
+}
+.info{
+    background-color: white;
+    text-align: center;
+    margin-left: 10px;
+}
